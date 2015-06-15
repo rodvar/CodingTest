@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WestpacTest</string>
+    <string name="whereLbl">You are in: N/A</string>
+    <string name="wheatherLbl">Wheather is: N/A</string>
+    <string name="tempLbl">Temperature: N/A</string>
+    <string name="action_settings">Settings</string>
+    <string name="humidityLbl">Humidity: N/A</string>
+    <string name="windLbl">Wind Speed: N/A</string>
+    <string name="pressureLbl">Pressure: N/A</string>
+    <string name="no_gps">Please enable your location settings</string>
+    <string name="no_internet">Please enable your internet conection</string>
+</resources>

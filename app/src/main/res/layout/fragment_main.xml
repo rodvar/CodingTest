@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment">
+
+    <TextView
+        android:text="@string/whereLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="41dp"
+        android:textSize="18dp"
+        android:id="@+id/whereLbl"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/wheatherLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:textSize="18dp"
+        android:id="@+id/wheatherLbl"
+        android:layout_below="@+id/whereLbl"
+        android:layout_alignLeft="@+id/whereLbl"
+        android:layout_alignStart="@+id/whereLbl" />
+
+    <TextView
+        android:text="@string/tempLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:textSize="18dp"
+        android:id="@+id/temperatureLbl"
+        android:layout_below="@+id/wheatherLbl"
+        android:layout_alignLeft="@+id/wheatherLbl"
+        android:layout_alignStart="@+id/wheatherLbl" />
+
+    <TextView
+        android:text="@string/humidityLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/humidityLbl"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/temperatureLbl"
+        android:layout_alignStart="@+id/temperatureLbl" />
+
+    <TextView
+        android:text="@string/windLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/windLbl"
+        android:layout_below="@+id/humidityLbl"
+        android:layout_alignLeft="@+id/humidityLbl"
+        android:layout_alignStart="@+id/humidityLbl"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:text="@string/pressureLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/pressureLbl"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/windLbl"
+        android:layout_alignLeft="@+id/windLbl"
+        android:layout_alignStart="@+id/windLbl" />
+
+
+</RelativeLayout>
